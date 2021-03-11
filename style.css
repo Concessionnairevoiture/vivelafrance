@@ -1,0 +1,137 @@
+*{ 
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    
+}
+
+
+ body, html{
+    width: 100%;
+    height: 100% ;
+    
+}
+
+h1 {
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 65px;
+    margin: 0px;
+    padding: 0px;
+    color: rgb(245, 235, 235);
+    
+    
+
+}
+
+body{
+    background: url(https://cs1.gtaall.eu/screenshots/d4861/2018-11/original/cf90238cc86931f80d68669941b553b6f22e1240/699346-GTA5-2018-11-20-10-00-28-42.jpg) no-repeat  center center; 
+    background-size: cover;
+    color: white;
+    overflow: hidden;
+    
+}
+
+.wrapper{
+    display: table;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.content{
+        display: table-cell;
+        text-align: center;
+        vertical-align: middle;
+        text-shadow: 1px 1px 10px black;
+        
+    }
+    .sublitle{
+        font-size: 30;
+    }
+    
+    .bleu{
+        color: blue;
+        font-size: 80px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .blanc{
+        color: white;
+        font-size: 70px;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+.rouge{
+    color: red;
+    font-size: 80px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+
+
+
+
+nav{
+  
+    height: 80px;
+    width: 100%;
+ 
+ }
+ label.barre{
+     color: white;
+     font-size: 35px;
+     line-height: 80px;
+     padding: 0 100px;
+     font-weight: bold;
+ }
+ nav ul{
+     float: right;
+     margin-right: 70px;
+ }
+ nav ul li{
+     display: inline-block;
+     line-height: 80px;
+     margin: 0 5px;
+ }
+ nav ul li a{
+     color: white;
+     font-size: 17px;
+     padding: 7px 13px;
+     border-radius: 3px;
+     text-transform: uppercase;
+ 
+ }
+ a.active,a:hover{
+     background: #000000;
+     transition: .5s;
+ }
+ 
+ *{
+     box-sizing: border-box;
+ }
+ body{
+     margin:0;
+     
+     font-family: Arial, Helvetica, sans-serif;
+ }
+ .container{
+     max-width: 1200px;
+     margin: auto;
+     background: #f8f5f5;
+     overflow: auto;
+ }
+ .bleu1{
+    color: rgb(62, 118, 240);
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.blanc1{
+    color: rgb(241, 238, 238);
+    font-size: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.rouge1{
+color: rgb(248, 70, 70);
+font-size: 35px;
+font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
